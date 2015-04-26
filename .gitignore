@@ -30,3 +30,11 @@ sysinfo.txt
   Icon?
   ehthumbs.db
   [Tt]humbs.db
+
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
+Builds/
+ProjectSettings/
+bombgame-csharp.sln
+bombgame.sln
+bombgame.userprefs
