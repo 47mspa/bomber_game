@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour {
 		if (c.gameObject.tag == "Solid Wall"
 			|| c.gameObject.tag == "Breakable Wall") {
 			isForward = !isForward;
+		} else if (c.gameObject.tag == "Player") {
+			Destroy(c.gameObject);
 		}
 	}
 }
